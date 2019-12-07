@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\julia.voronetskaja\\.nuget\\packages\\": {}
+    "C:\\Users\\endri\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia.voronetskaja\\Desktop\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\Point.csproj",
+      "projectUniqueName": "C:\\Users\\endri\\Source\\Repos\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\Point.csproj",
       "projectName": "Point",
-      "projectPath": "C:\\Users\\julia.voronetskaja\\Desktop\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\Point.csproj",
-      "packagesPath": "C:\\Users\\julia.voronetskaja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia.voronetskaja\\Desktop\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\obj\\",
+      "projectPath": "C:\\Users\\endri\\Source\\Repos\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\Point.csproj",
+      "packagesPath": "C:\\Users\\endri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\endri\\Source\\Repos\\TATge19-Lesson11-2-OOP-SnakeDraft\\Point\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\julia.voronetskaja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\endri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

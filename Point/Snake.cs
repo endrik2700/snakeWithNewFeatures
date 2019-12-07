@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Drawing;
 
 namespace Point
 {
@@ -15,10 +16,13 @@ namespace Point
     class Snake : Figure
     {
         public Direction Direction;
+        public Color color;
+        public string name;
 
-        public Snake(MyPoint tail, int length, Direction _direction)
+        public Snake(MyPoint tail, int length, Color _color,  Direction _direction) //added a new propery named class
         {
             Direction = _direction;
+            color = _color;
             
             for (int i = 0; i < length; i++)
             {
@@ -26,6 +30,15 @@ namespace Point
                 newPoint.MovePoint(i, Direction);
                 pointList.Add(newPoint);
             }
+            
+        }
+        // naming the snake by user
+        public String nameSnake () {
+
+            Console.WriteLine("What's the snake's name?");
+            string snakeName = Console.ReadLine();
+            name = snakeName;
+            return name;
         }
 
         public void MoveSnake()

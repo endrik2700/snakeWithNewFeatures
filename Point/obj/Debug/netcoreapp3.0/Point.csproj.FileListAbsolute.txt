@@ -20,3 +20,14 @@ C:\Users\julia.voronetskaja\Desktop\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\
 C:\Users\julia.voronetskaja\Desktop\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.AssemblyInfo.cs
 C:\Users\julia.voronetskaja\Desktop\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.dll
 C:\Users\julia.voronetskaja\Desktop\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.pdb
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.exe
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.deps.json
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.runtimeconfig.json
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.runtimeconfig.dev.json
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.dll
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\bin\Debug\netcoreapp3.0\Point.pdb
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.csprojAssemblyReference.cache
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.AssemblyInfoInputs.cache
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.AssemblyInfo.cs
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.dll
+C:\Users\endri\Source\Repos\TATge19-Lesson11-2-OOP-SnakeDraft\Point\obj\Debug\netcoreapp3.0\Point.pdb

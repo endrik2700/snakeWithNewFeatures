@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Drawing;
 
 namespace Point
 {
@@ -14,8 +15,10 @@ namespace Point
             walls.DrawWalls();
 
             MyPoint tail = new MyPoint(6, 5, '*');
-            Snake snake = new Snake(tail, 4, Direction.RIGHT);
+            Snake snake = new Snake(tail, 4, Color.GreenYellow, Direction.RIGHT); //added a color
             snake.DrawFigure();
+            
+            Console.WriteLine("Try to find some food for the snake"); //telling to search for food
 
             FoodCatering foodCatered = new FoodCatering(80, 25, '$');
             MyPoint food = foodCatered.CaterFood();
@@ -25,6 +28,14 @@ namespace Point
             {
                 if (walls.IsHitByFigure(snake))
                 {
+                    
+                    for (int i=0; i>=3;i++) { //if the worm hits the wall, 2 beeps
+                        Console.Beep();
+                        snake.color = Color.Red; //changing the snake's color to red
+                        
+                    }
+                    Console.BackgroundColor = ConsoleColor.DarkMagenta; //changing the console color on impact
+                    Console.WriteLine($" {snake.name} hit the wall");
                     break;
                 }
 
@@ -32,6 +43,13 @@ namespace Point
                 {
                     food = foodCatered.CaterFood();
                     food.Draw();
+                    Console.Beep(); // if the worm eats, console makes 1 beep
+                    Random fiftyPercent = new System.Random();
+                    //bool like; 
+                    fiftyPercent.Next(1, 2);
+                    Console.WriteLine(fiftyPercent.Equals(1) ? $"{snake.name} likes the food" : $"{snake.name} hates the food");  //determining wheter the snake likes the food
+                        
+                   Console.WriteLine( fiftyPercent.Equals(1) ? snake.color = Color.Azure : snake.color = Color.Purple); //changig colors dependent on the reaction to food
                 }else
                 {
                     snake.MoveSnake();
